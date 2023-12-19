@@ -1,0 +1,24 @@
+{
+    "name": "omath-preview",
+    "private": true,
+    "type": "module",
+    "main": "src/index.ts",
+    "scripts": {
+        "prod": "npx nuxi generate --dotenv .env.prod",
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "devDependencies": {
+        "@nuxt/devtools": "latest",
+        "@nuxtjs/tailwindcss": "^6.10.1",
+        "image-size": "^1.0.2",
+        "nuxt": "^3.8.2",
+        "sass": "^1.69.5",
+        "translator": "file:../../translator",
+        "vue": "^3.3.10",
+        "vue-router": "^4.2.5"
+    }
+}

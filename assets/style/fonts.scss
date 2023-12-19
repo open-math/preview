@@ -1,0 +1,39 @@
+//
+// Sans-serif
+//
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/sans-serif/OpenSans.ttf') format('truetype-variations');
+    font-style: normal;
+    font-weight: 1 999;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/sans-serif/OpenSans-Italic.ttf') format('truetype-variations');
+    font-style: italic;
+    font-weight: 1 999;
+    font-display: swap;
+}
+
+//
+// Serif
+//
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('/fonts/serif/NotoSerif.ttf') format('truetype-variations');
+    font-style: normal;
+    font-weight: 1 999;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('/fonts/serif/NotoSerif-Italic.ttf') format('truetype-variations');
+    font-style: italic;
+    font-weight: 1 999;
+    font-display: swap;
+}
