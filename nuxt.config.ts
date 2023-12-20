@@ -11,7 +11,6 @@ export default defineNuxtConfig({
     ],
     css: ['~/assets/style/global.scss'],
     ignore: [
-        !isDevelopment ? "server/**/*" : '',
         !isDevelopment ? "public/test/**/*" : '',
     ],
     vite: {
