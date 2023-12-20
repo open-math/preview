@@ -1,3 +1,5 @@
+import { isDevelopment } from "std-env";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     devtools: { enabled: false },
@@ -9,7 +11,8 @@ export default defineNuxtConfig({
     ],
     css: ['~/assets/style/global.scss'],
     ignore: [
-        "public/test/**/*",
+        !isDevelopment ? "server/**/*" : '',
+        !isDevelopment ? "public/test/**/*" : '',
     ],
     vite: {
         server: {
@@ -20,7 +23,7 @@ export default defineNuxtConfig({
     },
     runtimeConfig: {
         public: {
-            env: ''
+            isDev: isDevelopment
         }
     }
 })

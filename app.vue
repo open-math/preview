@@ -17,7 +17,7 @@
 
     let testData;
 
-    if (config.public.env !== 'production')
+    if (config.public.isDev)
         testData = await $fetch('/api/test');
 
     //

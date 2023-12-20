@@ -10,7 +10,7 @@ $$ A^2 + B^2 = \lim f(x) $$
 @image
     src: /test/test.jpg
 
-И ещее [чтото](@direct|google.com)! [АгА](paragraph:loxid)!
+И еще [чтото](@direct|google.com)! [АгА](paragraph:loxi)!
 
 @task
     title: Моя задача
