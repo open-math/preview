@@ -12,6 +12,9 @@ $$ A^2 + B^2 = \lim f(x) $$
 
 И еще [чтото](@direct|google.com)! [АгА](paragraph:loxi)!
 
+@todo
+    title: Привет, мир!
+
 @task
     title: Моя задача
     statement: Привет, Редька!

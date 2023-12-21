@@ -5,8 +5,9 @@
     import { Command } from "~/src/index";
 
     useHead({
-        title: 'OMath Предпростор',
-        script: [{ src: '/preview/theme.js' }]
+        title:      'OMath Предпростор',
+        script:     [{ src: '/preview/theme.js' }],
+        htmlAttrs:  { 'class': 'displayTodo' },
     });
 
     const config = useRuntimeConfig();
