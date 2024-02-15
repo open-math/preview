@@ -21,3 +21,7 @@ import "translator/content/assets/vendor/photoswipe/photoswipe-dynamic-caption-p
 import "translator/content/assets/vendor/photoswipe/photoswipe.umd.min.js";
 import "translator/content/assets/vendor/photoswipe/photoswipe-lightbox.umd.min.js";
 import "translator/content/assets/vendor/photoswipe/photoswipe-dynamic-caption-plugin.umd.min.js";
+
+//
+//
+//

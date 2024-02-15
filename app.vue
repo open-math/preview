@@ -2,6 +2,8 @@
     import "~/assets/importTranslator";
     import TaskGenWorker from "translator/content/worker_taskGen?worker";
 
+    import initMermaid from "~/assets/script/mermaid";
+
     import { Command } from "~/src/index";
 
     useHead({
@@ -29,8 +31,10 @@
     const mainContent = ref<HTMLElement | null>(null) as Ref<HTMLElement>;
     let currentPreviewLink;
 
-    onMounted(() =>
+    onMounted(async () =>
     {
+        await initMermaid();
+
         globalThis.TaskGenWorker = new TaskGenWorker;
 
         window.addEventListener('message', e =>
@@ -121,6 +125,7 @@
 </template>
 
 <style lang="scss">
+
     @use '~/assets/style/fonts';
 
     :root

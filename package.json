@@ -15,6 +15,7 @@
         "@nuxt/devtools": "latest",
         "@nuxtjs/tailwindcss": "^6.10.1",
         "image-size": "^1.0.2",
+        "mermaid": "^10.8.0",
         "nuxt": "^3.8.2",
         "sass": "^1.69.5",
         "std-env": "^3.6.0",
